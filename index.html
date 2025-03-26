@@ -2,41 +2,127 @@
 <body style="background-color:#d6eaf8;">
 <html lang="en">
 <head>
-	<title>Maria!</title>
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Put a description of the content and function of each separate page here including appropriate key words">
+	
+	
+
+ <link rel="icon" href="HTC_Heritage Library_Peachy PeachesElement 5.png" sizes="96x96">
+
+<title>Maria!</title>
+	
+<style>
+
+p {
+	color:blue;
+	font-size:100%;
+}
+.red {color:#d68910; font-size:125%}
+.green {color:#0f3909 ; font-size:125%}
+
+* {font-family:Garamond, Helvetica, sans-serif;}
+h1 {font-family: "Times New Roman", Times, serif;}
+li {font-family: Copperplate, Papyrus, fantasy;}
+
+
+.btn {
+	background-color: #e1bfee ;
+	color: #6f3a84 ;
+	border: 2px solid #c662ee ;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.rounded {border-radius: 10px;}
+
+.btn:hover {
+	background-image: url("BACKGROUND11.jpg") ;
+	color: white ;
+	border: 5px solid #db0d55 ;
+	padding: 23px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+a{color:#1b4f72}
+
+a:hover{color:white}
+
+.picdiv {
+	
+	padding: 20px;
+	background-image: url("BACKGROUND10.jpg");
+	
+
+</style>
+	
 </head>
 
 
 <body>
 	
 <header>
-<div style="width:100%; background:#1b4f72 ; text-align:center;">
+<div style=" background:#1b4f72 ; text-align:center;flex-direction:column">
 	<h1 style="color:#eaf2f8;">&#9829 This is Maria! &#9829 </h1>
 </div>
 </header>
 	
-	<h2> &#129419 This is my biography! &#129419 </h2>
-	<p style="color:rgb(25, 25, 112);"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur, nunc nec laoreet tincidunt, orci augue placerat ex, at porttitor metus mauris ac libero. Phasellus vel efficitur quam. Vestibulum tincidunt metus nec elit mattis ultrices. Nullam accumsan id diam eu lacinia. Nunc magna nisl, gravida sit amet est at, venenatis euismod ligula. Sed rutrum velit sed magna viverra, a vestibulum ligula sagittis. Suspendisse sit amet ante mi. Ut nec risus sed diam luctus elementum. Quisque vel orci ligula.</p>
+	<div style="float:left; display:flex;background:#85c1e9;border:outset"> <h2 > &#129419 This is my biography! &#129419 </h2> </div>
+	</div>
+	<div style="clear:right;float:right;">
+		<p style=" color:rgb(25, 25, 112);"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur, nunc nec laoreet tincidunt, orci augue placerat ex, at porttitor metus mauris ac libero. Phasellus vel efficitur quam. Vestibulum tincidunt metus nec elit <i>.attis ultrices.</i> Nullam accumsan id diam eu lacinia. <span class="red"> Nunc magna </span>nisl, gravida sit amet est at, venenatis euismod ligula. Sed rutrum velit sed magna viverra, a vestibulum ligula sagittis. Suspendisse sit amet ante mi. Ut nec risus sed diam luctus elementum. Quisque vel orci ligula.</p>
+		
+		<p class="red"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur, nunc nec laoreet tincidunt, orci augue placerat ex, at porttitor metus mauris ac libero. Phasellus vel efficitur quam. Vestibulum tincidunt metus nec elit mattis ultrices. <span ></span><i>Nullam accumsan</i></span> id diam eu lacinia. Nunc magna nisl, gravida sit amet est at, venenatis euismod ligula. Sed rutrum velit sed magna viverra, a vestibulum ligula sagittis. Suspendisse sit amet ante mi. Ut nec risus sed diam luctus elementum. Quisque vel orci ligula.</p>
+	</div>
 
-<div style="float:right;border:outset; border-color: #c39bd3 ">
+<div  style="float:right;border:outset; border-color: #c39bd3 " class="picdiv">
 	<h2> &#127803 This is my experience! &#127801 </h2>
 	<ol>
-		<li>Lorem </li>
+		<li class ="red" >Lorem </li>
 		<li>ipsum </li>
 		<li style="color:red;font-size:18px;"> sit ame </li>
 		<li>West </li>
 		<li><i><b>consectetur</b></i> </li>
 	</ol>
-</div>
+</div >
 
-	<h2>This is my <a href="portfolio.html">
-	<b> <i> &#8902 PORTFOLIO  &#8902 </i> </b> </a> 
+<div style="clear:left;float:left;">
+	<h2>This is my <a  href="portfolio.html">
+	<button class="btn rounded"> <i> &#8902 PORTFOLIO  &#8902 </i>  </a> </button> 
 	</h2>
 
-	<img src="HTC_Heritage Library_Shakespeares GardenElement 8.png" alt="dancing fairies" height="400"> 
-	<h6><i>This is my picture!</i></h6> 
+
+</div>
+
+<div style="clear:left;float:left;">
+	<img src="HTC_Heritage Library_Shakespeares GardenElement 8.png" alt="dancing fairies" height="300" > 
+	<h4><i>This is my picture!</i></h4> 
+
+</div>
+
+<div class= "green" style="  text-align:center; clear:both; display:flex;background:#bfeaba "class="container-fluid border" class="container p-3 boarder vh-100">
+	<h2> <b> &#127793 It's Spring! &#128027 </b></h2>
+</div>
+
+<br>
+
 
 <footer>
-<div style="clear:both; width:100%; background:#1b4f72 ; text-align:center;">
+<div style="clear:both; width:100%; background:#1b4f72 ; text-align:center;" >
 	<h2 style="color:#eaf2f8;" >  <b>BYE! &#128640 </b></h2>
 </div>
 </footer>
